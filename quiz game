@@ -1,0 +1,51 @@
+print("welcome to my general knowledge quiz!")
+score = 0
+
+answer = input("would you love to play? ")
+if answer.lower() != "yes":
+    quit
+else:
+    print("All the best!")
+    answer = input ("question 1\n Which is the smallest country in the world? ")
+    if answer.lower() == "vatican":
+        print("correct!")
+        score += 1
+    else:
+        print("incorrect!\n Vatican")
+
+    answer = input("Question 2\n Which country is reffered to as the horn of africa? ")
+    if answer.lower() == "somalia":
+        print("correct!")
+        score += 1
+    else:
+        print("incorrect!\n Somalia")
+
+    answer = input("Question 3\n Which country is referred to as the pearl of Africa? ")
+    if answer.lower() == "uganda":
+        print("correct!")
+        score += 1
+    else:
+        print("incorrect!\n Uganda")
+    
+    answer = input("Question 4\n Rome is the capital city of? " )
+    if answer.lower() == "italy":
+        print("correct!")
+        score += 1
+    else:
+        print("incorrect!\n Italy")
+    
+    answer = input("Question 5\n What is the best programming language to learn? ")
+    if answer.lower() == "python":
+        print("correct!")
+        score += 1
+    else:
+        print("incorrect!\n Python")
+
+    print("Your total score is " + str(score))
+        
+    percentage_score = (score/5)*100
+    if percentage_score >= 80:
+        print("Well done! your percent score is " + str(percentage_score)+"%, well, above average!")
+    else:
+            print("Your percentage score is "+ str(percentage_score)+"%, thanks for playing!")
+   
