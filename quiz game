@@ -42,7 +42,7 @@ else:
         print("incorrect!\n Python")
 
     print("Your total score is " + str(score))
-        
+    
     percentage_score = (score/5)*100
     if percentage_score >= 80:
         print("Well done! your percent score is " + str(percentage_score)+"%, well, above average!")
