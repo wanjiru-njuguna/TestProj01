@@ -49,5 +49,5 @@ else:
     if percentage_score >= 80:
         print("Well done! your percent score is " + str(percentage_score)+"%, well, above average!")
     else:
-            print("Your percentage score is "+ str(percentage_score)+"%, thanks for playing!")
+        print("Your percentage score is "+ str(percentage_score)+"%, thanks for playing!")
    
